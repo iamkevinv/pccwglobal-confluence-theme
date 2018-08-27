@@ -15,7 +15,7 @@ Info here: https://developer.atlassian.com/server/framework/atlassian-sdk/set-up
 * atlas-run     -- installs this plugin into confluence and starts it on localhost (first run will download all of confluence's files with maven).
 * atlas-package -- rebuilds the latest changes to the plugin and notifies the QuickReload module (https://developer.atlassian.com/server/framework/atlassian-sdk/automatic-plugin-reinstallation-with-quickreload/) in the currently running 'atlas-run' initiated local server of the changes. This has been added as a VSCode default build 'task'.
 
-Other standard atlass commands:
+Other standard atlas commands:
 
 * atlas-debug   -- same as atlas-run, but allows a debugger to attach at port 5005
 * atlas-cli     -- after atlas-run or atlas-debug, opens a Maven command line window:
